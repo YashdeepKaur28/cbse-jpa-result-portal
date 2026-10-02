@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Add Student</title>
+</head>
+<body>
+    <h3>Add Student (CBSE Result)</h3>
+    <form action="add" method="post">
+        ID: <input type="number" name="id" required><br>
+        Name: <input type="text" name="name" required><br>
+        Class: <input type="text" name="class" required><br>
+        Maths: <input type="number" name="math" min="0" max="100" step="any" required><br>
+        Science: <input type="number" name="science" min="0" max="100" step="any" required><br>
+        English: <input type="number" name="english" min="0" max="100" step="any" required><br>
+        Hindi: <input type="number" name="hindi" min="0" max="100" step="any" required><br>
+        Social Science: <input type="number" name="sst" min="0" max="100" step="any" required><br>
+        <input type="submit" value="Add">
+        <input type="button" value="Back" onclick="location.href='index.html'">
+    </form>
+</body>
+</html>
